@@ -1,0 +1,92 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:import/typescript",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": ["import", "simple-import-sort", "@typescript-eslint"],
+  "rules": {
+    "no-constant-condition": "off",
+    "import/no-unresolved": "off",
+    "curly": ["error", "all"],
+    "new-cap": "off",
+    "no-unused-expressions": "off",
+    "no-unused-vars": "off",
+    "semi": ["warn", "always"],
+    "object-curly-spacing": ["error", "always"],
+    "arrow-parens": ["error", "always"],
+    "linebreak-style": 0,
+    "space-infix-ops": "error",
+    "eol-last": ["error", "always"],
+    "padding-line-between-statements": [
+      "error",
+      {
+        "blankLine": "always",
+        "prev": "*",
+        "next": "block"
+      },
+      {
+        "blankLine": "always",
+        "prev": "block",
+        "next": "*"
+      },
+      {
+        "blankLine": "always",
+        "prev": "*",
+        "next": "block-like"
+      },
+      {
+        "blankLine": "always",
+        "prev": "block-like",
+        "next": "*"
+      }
+    ],
+    "@typescript-eslint/no-unused-vars": [
+      "warn",
+      {
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_",
+        "caughtErrorsIgnorePattern": "^_"
+      }
+    ],
+    "@typescript-eslint/naming-convention": [
+      "warn",
+      {
+        "selector": ["parameter", "variable"],
+        "leadingUnderscore": "forbid",
+        "format": null
+      },
+      {
+        "selector": "variable",
+        "format": ["camelCase", "UPPER_CASE", "snake_case", "PascalCase"],
+        "leadingUnderscore": "allow", // This allows leading underscores generally
+        "filter": {
+          "regex": "^(__filename|__dirname)", // This regex matches the variable name `__filename`
+          "match": false // This means that the rule will not apply to `__filename`
+        }
+      },
+      {
+        "selector": "parameter",
+        "leadingUnderscore": "require",
+        "format": null,
+        "modifiers": ["unused"]
+      }
+    ],
+    "@typescript-eslint/no-explicit-any": "off",
+    "object-curly-newline": "off",
+    "@typescript-eslint/ban-ts-comment": "off",
+    "prettier/prettier": "warn",
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error"
+  },
+  "env": {
+    "es6": true,
+    "node": true,
+    "jest": true
+  }
+}
