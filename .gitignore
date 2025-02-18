@@ -1,9 +1,0 @@
-# Define environment variables
-.env
-
-# Build directory
-dist
-
-# Necessary dependencies
-node_modules
-package-lock.json
