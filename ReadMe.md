@@ -80,7 +80,8 @@ TOKEN_PERCENTAGE=1 #percentage
 3. Run `raypump-copytrading-bot.exe`.
 
 ---
-![5021893217133637158](https://github.com/user-attachments/assets/2a653361-5896-40e1-b149-7dafdf63a008)
+![image](https://github.com/user-attachments/assets/5067bce9-1077-4c9d-aa2f-18eab05cd18b)
+
 > ---[BUY]---
 * target: https://solscan.io/tx/5aaQDtXjyf4NDF3NKjjmC5s6Y8AhW3ieTpmB6Kxt6UGC2AowJ2xRTzFJo7KM4CVcpbphA2w76juGDdvqqgNTt1CF
 * copied: https://solscan.io/tx/4uPU2BRi7BJCTxp4kJQFTmLj5pmoAyKw7zCHNCPiP2NYK2HcqXfJr8gE6eF89VYPEy5VTFaRQf4DTUZNzttFQ73Z
