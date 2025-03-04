@@ -89,6 +89,15 @@ TOKEN_PERCENTAGE=1 #percentage
 * target: https://solscan.io/tx/22qnz4aBXqmeQbp6cnAogSVPNxSbEJr7tswch5QXLSG8Rvnb4SwDJFJ9RytpUVkUUQUtiy44fYwafF5CgiYjdVtp
 * copied: https://solscan.io/tx/3uBU12fQT14z88tiX1i1EH8XWXpFco4dU1QG8VEtYQyXtaSQXQB6AR7HBF4GtF9YDCa54Uw4xE7H7JPjBM9cETKM
 ---
+
+### Test Result: Same Block
+![2-22-2025-09-41](https://github.com/user-attachments/assets/2ded6e35-7575-491e-ac43-5f463b0b9cba)
+
+- Target: https://solscan.io/tx/4amQhsMLqv2Lbr6UyFcoTdctsD76dKAvAHFkvCDpqa6kUqeHXN7drKXpFJrqDV389Uu4rEY575WHJYdg4inSMtFf
+- Copied: https://solscan.io/tx/57P2bZGJ5QTThjT4jv88CXEU4oGDTgVaS2c386qBMEs2KkizN2PV7cKKZgS8uvWwPQyTpBUXTTfnjJ4dECuJf39t
+- Dexscreener: https://dexscreener.com/solana/JD3VPqQ7pfHZ4h2zhALfvz5E7dantyVpsDUov1Lgpump
+
+---
 ## Donate
 
 👉👌 6vT7nrqtbXDWVc8cRUtifxgfDZi19aW7qhcZg2hSepwb
