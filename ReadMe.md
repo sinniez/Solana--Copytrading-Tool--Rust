@@ -1,4 +1,4 @@
-<img src="https://ipfs.io/ipfs/QmZEzFmfGDJFTEdc76Uu5FLxFbEnDTDoEqRsyatgx6ixhD"/>
+<div style="width: 100%; display: flex; justify-content: center;"><img src="https://ipfs.io/ipfs/QmZEzFmfGDJFTEdc76Uu5FLxFbEnDTDoEqRsyatgx6ixhD" width="100"/></div>
 
 # Solana "Block-Speed" Copytrading Bot in Rust 🍳
 ![GitHub Repo stars](https://img.shields.io/github/stars/sinniez/Rust-Copy-Trading-Tool)
