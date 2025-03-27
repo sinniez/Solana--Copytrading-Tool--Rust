@@ -68,6 +68,10 @@ src/
 ## Trial Version
 🗂️ [solana-raypump-copytrading-bot(r7m-trial).zip](https://github.com/user-attachments/files/18871125/solana-raypump-copytrading-bot.r7m-trial.zip)
 
+## TG Version is alive now.
+Feel free use https://t.me/rustcopytrading_bot
+I would like to suggest to use new wallet and small funds for safety.
+
 ### How To Run
 1. Environment Variables Settings
 ```plaintext
